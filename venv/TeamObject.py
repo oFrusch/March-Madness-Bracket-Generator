@@ -109,17 +109,17 @@ class Team:
     name = "team name"
 
     def __init__(self, seed, win_chance, champ_game_chance, final_four_chance, elite_eight_chance, sweet_sixteen_chance, name):
-        self.seed
-        self.win_chance
-        self.champ_game_chance
-        self.final_four_chance
-        self.elite_eight_chance
-        self.sweet_sixteen_chance
-        self.name
+        self.seed = seed
+        self.win_chance = win_chance
+        self.champ_game_chance = champ_game_chance
+        self.final_four_chance = final_four_chance
+        self.elite_eight_chance = elite_eight_chance
+        self.sweet_sixteen_chance = sweet_sixteen_chance
+        self.name = name
 
 
-def make_team(self, seed, name):
-    team = Team(seed, name)
+def make_team(seed, name):
+    team = Team(seed, 0, 0, 0, 0, 0, name)
     team.win_chance = calc_win_chance(seed)
     team.champ_game_chance = calc_champ_game_chances(seed)
     team.final_four_chance = calc_final_four_chances(seed)
@@ -150,4 +150,4 @@ def calc_elite_eight_chances(seed):
 
 # Pass in team seed num
 def calc_sweet_sixteen_chances(seed):
-    return calc_sweet_sixteen_chance[seed]
+    return sweet_sixteen_chance[seed]
