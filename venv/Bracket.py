@@ -62,7 +62,7 @@ def generate_teams(x):
 def simulate_round1(teams):
     round2 = queue.Queue(maxsize=8)
     while not teams.empty():
-        random_num = random.randint(0, 5) / 5
+        random_num = random.randint(0, 6) / 6
         random_num2 = random.randint(0, 5) / 5
         team1 = teams.get()
         team2 = teams.get()
@@ -77,7 +77,7 @@ def simulate_round1(teams):
 def simulate_round2(teams):
     sweet_sixteen_queue = queue.Queue(maxsize=4)
     while not teams.empty():
-        random_num = random.randint(0, 5) / 5
+        random_num = random.randint(0, 6) / 6
         random_num2 = random.randint(0, 5) / 5
         team1 = teams.get()
         team2 = teams.get()
@@ -92,7 +92,7 @@ def simulate_round2(teams):
 def simulate_16(teams):
     elite_eight_queue = queue.Queue(maxsize=2)
     while not teams.empty():
-        random_num = random.randint(0, 5) / 5
+        random_num = random.randint(0, 6) / 6
         random_num2 = random.randint(0, 5) / 5
         team1 = teams.get()
         team2 = teams.get()
@@ -145,16 +145,16 @@ def simulate_tournament(x, y, z, w):
 
 winners = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0}
 winner_names = []
-for i in range(0, 1000):
+for i in range(0, 10000):
     winner = simulate_tournament("1", "2", "3", "4")
     winner_names.append(winner.name)
     winners[winner.seed] += 1
 
 
-for j in winner_names:
-    print(j)
+# for j in winner_names:
+#     print(j)
 
 
 for i in winners:
-    print("Seed " + str(i) + ": " + str(winners[i]) + " Percent Win: " + str(winners[i]/1000))
+    print("Seed " + str(i) + ": " + str(winners[i]) + " Percent Win: " + str(winners[i]/10000))
 
