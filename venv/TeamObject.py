@@ -61,22 +61,22 @@ win_chances = {
 
 # These 2 dictionaries are my crude conjectures because I was unable to find any data on these rounds
 sweet_sixteen_chance = {
-    1: 0.99,
+    1: 0.999,
     2: 0.95,
     3: 0.90,
-    4: 0.87,
-    5: 0.82,
-    6: 0.78,
-    7: 0.70,
+    4: 0.80,
+    5: 0.75,
+    6: 0.67,
+    7: 0.60,
     8: 0.51,
     9: 0.49,
-    10: 0.30,
-    11: 0.22,
-    12: 0.18,
-    13: 0.13,
+    10: 0.40,
+    11: 0.33,
+    12: 0.26,
+    13: 0.20,
     14: 0.10,
     15: 0.05,
-    16: 0.01,
+    16: 0.001,
 }
 
 elite_eight_chance = {

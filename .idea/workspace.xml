@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/venv/TeamObject.py" line="78" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bd8c0c20-e1a3-4f31-891e-0fdc5b19f71e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/venv/Bracket.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Bracket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/TeamObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/TeamObject.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2232" />
+          <entry key="py" value="3735" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2232" />
+          <entry key="Python" value="3735" />
         </counts>
       </usages-collector>
     </session>
@@ -49,12 +53,16 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/venv/Bracket.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="980">
-                  <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+                <state relative-caret-position="997">
+                  <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
                   <folding>
                     <element signature="e#294#318#0" expanded="true" />
-                    <marker date="1540139280366" expanded="true" signature="333:334" ph="..." />
-                    <marker date="1540139280366" expanded="true" signature="463:732" ph="..." />
+                    <marker date="1540142470615" expanded="true" signature="347:348" ph="..." />
+                    <marker date="1540142470615" expanded="true" signature="522:791" ph="..." />
+                    <marker date="1540142470615" expanded="true" signature="936:937" ph="..." />
+                    <marker date="1540142470615" expanded="true" signature="936:941" ph="..." />
+                    <marker date="1540142470615" expanded="true" signature="1952:2735" ph="..." />
+                    <marker date="1540142470615" expanded="true" signature="2762:3052" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -67,11 +75,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/venv/TeamObject.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="895">
-                  <caret line="152" column="11" lean-forward="true" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+                <state relative-caret-position="1326">
+                  <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
                   <folding>
-                    <marker date="1540137653432" expanded="true" signature="1762:1767" ph="..." />
-                    <marker date="1540137653432" expanded="true" signature="2792:2797" ph="..." />
+                    <marker date="1540141466737" expanded="true" signature="1764:1769" ph="..." />
+                    <marker date="1540141466737" expanded="true" signature="2794:2799" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -231,14 +239,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13396375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17160687" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.040561624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -258,23 +265,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/TeamObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="152" column="11" lean-forward="true" selection-start-line="152" selection-start-column="11" selection-end-line="152" selection-end-column="11" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding>
-            <marker date="1540137653432" expanded="true" signature="1762:1767" ph="..." />
-            <marker date="1540137653432" expanded="true" signature="2792:2797" ph="..." />
+            <marker date="1540141466737" expanded="true" signature="1764:1769" ph="..." />
+            <marker date="1540141466737" expanded="true" signature="2794:2799" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Bracket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="997">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
           <folding>
             <element signature="e#294#318#0" expanded="true" />
-            <marker date="1540139280366" expanded="true" signature="333:334" ph="..." />
-            <marker date="1540139280366" expanded="true" signature="463:732" ph="..." />
+            <marker date="1540142470615" expanded="true" signature="347:348" ph="..." />
+            <marker date="1540142470615" expanded="true" signature="522:791" ph="..." />
+            <marker date="1540142470615" expanded="true" signature="936:937" ph="..." />
+            <marker date="1540142470615" expanded="true" signature="936:941" ph="..." />
+            <marker date="1540142470615" expanded="true" signature="1952:2735" ph="..." />
+            <marker date="1540142470615" expanded="true" signature="2762:3052" ph="..." />
           </folding>
         </state>
       </provider>
