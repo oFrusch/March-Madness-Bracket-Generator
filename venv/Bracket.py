@@ -31,6 +31,8 @@
 # 15 ----
 
 from TeamObject import *
+import queue
+
 
 sweet_sixteen = {
     1: 16,
@@ -45,9 +47,10 @@ sweet_sixteen = {
 
 
 def generate_teams():
-    teams = []
-    for i in range(1, 17):
-        team = make_team(i, "team " + str(i))
-        teams.append(team)
-    return teams
-
+    initial_queue = queue.Queue(maxsize=16)
+    for i,j in sweet_sixteen.items():
+        team1 = make_team(i, "team " + str(i))
+        team2 = make_team(j, "team " + str(i))
+        initial_queue.put(team1)
+        initial_queue.put(team2)
+    return initial_queue
